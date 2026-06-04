@@ -1,0 +1,10 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "framework": "vite",
+  "functions": {
+    "api/read-cloud.js": {
+      "maxDuration": 30
+    }
+  }
+}

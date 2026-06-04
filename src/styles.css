@@ -1,0 +1,26 @@
+html {
+  background: #09080a;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  background: #09080a;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+button:focus-visible,
+[role="button"]:focus-visible {
+  outline: 2px solid #c8a96e;
+  outline-offset: 3px;
+}
+
+img {
+  max-width: 100%;
+}
